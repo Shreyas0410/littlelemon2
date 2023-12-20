@@ -1,0 +1,45 @@
+/* Menu.css */
+
+.menu-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .menu-section {
+    margin-bottom: 30px;
+  }
+  
+  .menu-item {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .menu-item-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .menu-item-details {
+    flex-grow: 1;
+  }
+  
+  .menu-item-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .menu-item-price {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  /* Additional styles can be added as needed */
+  
